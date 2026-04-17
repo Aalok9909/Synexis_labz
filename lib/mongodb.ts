@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 
-const atlasUri = process.env.MONGODB_URI ?? 'mongodb+srv://shahaalok184_db_user:FaA8MMhkWRRc430S@cluster0.acdjuna.mongodb.net/synexis_labs?retryWrites=true&w=majority';
-const localUri = 'mongodb://127.0.0.1:27017/synexis_labs';
+const atlasUri = process.env.MONGODB_ATLAS_URI ?? 'mongodb+srv://shahaalok184_db_user:FaA8MMhkWRRc430S@cluster0.acdjuna.mongodb.net/synexis_labs?retryWrites=true&w=majority';
+const localUri = process.env.MONGODB_URI ?? 'mongodb://127.0.0.1:27017/synexis_labs';
 const options = {};
 
 let clientPromise: Promise<MongoClient>;
