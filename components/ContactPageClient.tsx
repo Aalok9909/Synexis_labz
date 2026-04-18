@@ -38,7 +38,7 @@ export default function ContactPageClient() {
               </div>
               <div className="rounded-3xl bg-[#07101a] p-6 text-slate-300">
                 <p className="font-semibold text-white">Email</p>
-                <p className="mt-2">contact@synexislabs.com</p>
+                <p className="mt-2">synexislabz@gmail.com</p>
               </div>
             </div>
           </div>
